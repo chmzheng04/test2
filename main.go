@@ -17,6 +17,7 @@ package main
 
 //it just a test
 //it just a test commit
+//base
 import "github.com/gitpod/mycli/cmd"
 
 func main() {
