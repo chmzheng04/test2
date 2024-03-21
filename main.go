@@ -20,6 +20,7 @@ package main
 //base
 //base2
 //abc
+//test2
 import "github.com/gitpod/mycli/cmd"
 
 func main() {
