@@ -24,6 +24,15 @@ import (
 	"github.com/spf13/viper"
 	""
 )
+import (
+	"fmt"
+	"os"
+	"github.com/spf13/cobra"
+
+	homedir "github.com/mitchellh/go-homedir"
+	"github.com/spf13/viper"
+	""
+)
 var rootCmd = &cobra.Command{
 	Use:   "newCLI",
 	Short: "A brief description of your application",
