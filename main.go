@@ -15,6 +15,8 @@ limitations under the License.
 */
 package main
 
+//it just a test
+
 import "github.com/gitpod/mycli/cmd"
 
 func main() {
