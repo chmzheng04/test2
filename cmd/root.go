@@ -22,9 +22,11 @@ import (
 
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/viper"
+	""
 )
 
 var cfgFile string
+var a = 0000;
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
