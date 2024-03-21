@@ -11,11 +11,9 @@
       and distribution as defined by Sections 1 through 9 of this document.
 
       "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
 
     *very important
 install flannel network in yaml file
-this is a pr test
 chang cidr
  - --iface=enp0s8//*very import in virtual box
 
@@ -25,7 +23,7 @@ chang cidr
       "Source" form shall mean the preferred form for making modifications,
       including but not limited to software source code, documentation
       source, and configuration files.
-
+aaaa
       "Object" form shall mean any form resulting from mechanical
       transformation or translation of a Source form, including but
       not limited to compiled object code, generated documentation,
