@@ -28,6 +28,7 @@ import (
 var cfgFile string
 var a = 0000;
 var p = "amaTeat"
+var q = "asss"
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
