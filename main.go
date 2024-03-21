@@ -20,5 +20,6 @@ package main
 import "github.com/gitpod/mycli/cmd"
 
 func main() {
+	log.Error("a test")
 	cmd.Execute()
 }
