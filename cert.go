@@ -37,7 +37,6 @@ Outputs to 'cert.pem' and 'key.pem' and will overwrite existing files.`,
 		intFlag("rsa-bits", 2048, "Size of RSA key to generate. Ignored if --ecdsa-curve is set"),
 		stringFlag("start-date", "", "Creation date formatted as Jan 1 15:04:05 2011"),
 		durationFlag("duration", 365*24*time.Hour, "Duration that certificate is valid for"),
-		boolFlag("ca", "whether this cert should be its own Certificate Authority"),
 	},
 }
 
@@ -51,6 +50,8 @@ func publicKey(priv any) any {
 		return nil
 	}
 }
+
+//abc
 
 func pemBlockForKey(priv any) *pem.Block {
 	switch k := priv.(type) {
