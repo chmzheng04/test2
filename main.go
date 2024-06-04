@@ -15,15 +15,14 @@ limitations under the License.
 */
 package main
 
+log.Error("a test #")
 //it just a test
 //it just a test commit
 //base
 //base2
-//abc
-//test2
 import "github.com/gitpod/mycli/cmd"
 
 func main() {
-	log.Error("a test")
+	log.Error("a test #")
 	cmd.Execute()
 }
