@@ -15,4 +15,8 @@ const TodoApp = () => {
 			)}
 		</div>
 };
+const forkforcommit = ()=>{
+	var date[3] = {0};
+	
+}
 export default TodoApp;
