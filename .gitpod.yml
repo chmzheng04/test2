@@ -1,10 +1,5 @@
 
-tasks:
-  - init: |
-      go get github.com/spf13/cobra/cobra
-      go build
-    command: |
-      ./mycli --help
+image: ubuntu:20.04
 vscode:
   extensions:
     - golang.go
